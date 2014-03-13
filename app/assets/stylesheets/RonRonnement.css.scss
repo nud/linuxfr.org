@@ -12,10 +12,11 @@
 
 
 /* Pixel size constants */
+$PX_MAX_WIDTH: 1350px !default;
 $PX_MARGE_GAUCHE: 42px;
 $PX_MARGE_DROITE: 30px;
 $PX_BANDEAU: 7px;
-$PX_BRANDING_LARG: 201px;
+$PX_BRANDING_LARG: 201px !default;
 $PX_SITE_PAD_DROIT: 42px;
 $PX_CONT_TOP: 34px;
 
@@ -24,7 +25,7 @@ $PX_MARGE_DROITE_SHA: 38px;
 $PX_PAD_NODE: 34px;
 
 /* This is the base font size. Absolute font sizes must not be used elsewhere. */
-$BASE_FONT_SIZE: small;
+$BASE_FONT_SIZE: small !default;
 
 $RAY_SIDEBAR: 42px;
 $RAY_CONTAINER: 62px;
@@ -64,7 +65,7 @@ html {
 body {
   position: relative;
   color: #000;
-  max-width: 1350px;
+  max-width: $PX_MAX_WIDTH;
   margin: 0 auto;
   border: solid #999;
   border-width: 0 1px;
@@ -129,7 +130,7 @@ form input[type='submit'], button {
 
 #redaction a.reorganize {
   float: left;
-  height: 21px;
+  min-height: 21px;
   padding: 0 3px 0 20px;
   margin: 4px 12px;
   background: no-repeat 2px 2px / 16px $C_CLAIR;
@@ -236,7 +237,7 @@ button, input[type='submit'] {
 #comments #send-comment a {
   display: inline-block;
   padding: 2px 5px 0 25px;
-  height: 21px;
+  min-height: 21px;
 }
 .edit_client_app a,
 .new_content a {

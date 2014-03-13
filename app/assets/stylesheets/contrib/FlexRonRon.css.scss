@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+$PX_BRANDING_LARG: 18em;
+$PX_MAX_WIDTH: 1600px;
+$BASE_FONT_SIZE: 20px;
+
+@import '../colors';
+@import '../RonRonnement';
+
+/* FIXME: Using Google Fonts sucks but I need a font that looks OK at bigger sizes. */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,latin-ext);
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+#sidebar .new_content a {
+  font-size: 1.2em;
+}
+
+/* For big enough screens, we just modulate the font size */
+@media screen and (max-width: 1400px) {
+  body { font-size: round(1400px * $BASE_FONT_SIZE / $PX_MAX_WIDTH); }
+}
+@media screen and (max-width: 1200px) {
+  body { font-size: round(1200px * $BASE_FONT_SIZE / $PX_MAX_WIDTH); }
+}
+@media screen and (max-width: 1100px) {
+  body { font-size: round(1000px * $BASE_FONT_SIZE / $PX_MAX_WIDTH); }
+}
+@media screen and (max-width: 768px), handheld {
+  html, body {
+    font-size: 13px;
+  }
+}
