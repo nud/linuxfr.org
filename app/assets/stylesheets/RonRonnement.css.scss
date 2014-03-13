@@ -145,64 +145,64 @@ button.edit, button.cancel, button#admin_49_3, button.add_link {
 
 button, input[type='submit'] {
   &.publish_news, &.ok_button {
-    background: no-repeat 3px 3px / 16px $C_CLAIR;
+    background: no-repeat 3px center / 16px $C_CLAIR;
     background-image: url("/images/icones/check.png");
     background-image: url("/images/icones/check.svg"), none;
   }
   &.refuse_news, &.delete_button, &.cancel, &.remove, &.refuse_oauth, &.erase_news {
-    background: no-repeat 4px 4px / 14px $C_CLAIR;
+    background: no-repeat 4px center / 14px $C_CLAIR;
     background-image: url("/images/icones/x_red.png");
     background-image: url("/images/icones/x_red.svg"), none;
   }
   &.ppp_news {
-    background: no-repeat 3px 3px / 16px $C_CLAIR;
+    background: no-repeat 3px center / 16px $C_CLAIR;
     background-image: url("/images/icones/pin.png");
     background-image: url("/images/icones/pin.svg"), none;
   }
   &.submit_board {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/chat.png");
     background-image: url("/images/icones/chat.svg"), none;
   }
   &.submit_news {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/check_alt.png");
     background-image: url("/images/icones/check_alt.svg"), none;
     margin: 0 15px 15px;
   }
   &.add_para, &.add_link, &.create_news {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/plus.png");
     background-image: url("/images/icones/plus.svg"), none;
   }
   &.vote_for {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/arrow_up.png");
     background-image: url("/images/icones/arrow_up.svg"), none;
   }
   &.vote_against {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/arrow_down.png");
     background-image: url("/images/icones/arrow_down.svg"), none;
   }
   &.plonk, &.block {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/denied.png");
     background-image: url("/images/icones/denied.svg"), none;
     &:hover { background-color: $C_INTER; }
   }
   &#admin_49_3, &.archive_button, &.reopen_button {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/target.png");
     background-image: url("/images/icones/target.svg"), none;
   }
   &.reset_news, &.reset_password {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/loop.png");
     background-image: url("/images/icones/loop.svg"), none;
   }
   &.reassign_news {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/loop_alt.png");
     background-image: url("/images/icones/loop_alt.svg"), none;
     height: 20px;
@@ -211,13 +211,13 @@ button, input[type='submit'] {
     text-indent: -9999em;
   }
   &.rewrite_news {
-    background: no-repeat 2px 2px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/pen.png");
     background-image: url("/images/icones/pen.svg"), none;
   }
   &#followup {
 	height: 23px;
-    background: no-repeat 2px 3px / 16px $C_CLAIR;
+    background: no-repeat 2px center / 16px $C_CLAIR;
     background-image: url("/images/icones/at.png");
     background-image: url("/images/icones/at.svg"), none;
     &:hover { background-color: $C_INTER; }
@@ -241,13 +241,13 @@ button, input[type='submit'] {
 }
 .edit_client_app a,
 .new_content a {
-  background: no-repeat 3px 3px / 16px $C_CLAIR;
+  background: no-repeat 3px center / 16px $C_CLAIR;
   background-image: url("/images/icones/pen.png");
   background-image: url("/images/icones/pen.svg"), none;
 }
 .toolbox .follow_feed a,
 #comments #follow-feed a {
-  background: no-repeat 3px 3px / 16px $C_CLAIR;
+  background: no-repeat 3px center / 16px $C_CLAIR;
   background-image: url("/images/icones/rss.png");
   background-image: url("/images/icones/rss.svg"), none;
 }
